@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test Project 3",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            //"environmentName": "Demo",
+            "environmentName": "TestSandbox3",
+            "tenant": "bd511e5f-d6b4-4799-b80e-0cab83e0c6ff",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+            // "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
